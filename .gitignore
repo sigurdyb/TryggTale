@@ -1,0 +1,36 @@
+# ── Avhengigheter ──────────────────────────────────────────
+node_modules/
+
+# ── Byggutput ───────────────────────────────────────────────
+dist/
+dist-ssr/
+
+# ── Lokale miljøvariabler (aldri push disse) ────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Vite / TypeScript cache ─────────────────────────────────
+.vite/
+*.tsbuildinfo
+
+# ── OS-filer ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logg-filer ──────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Pakkemanager-låsfiler (velg én og hold deg til den) ─────
+# pnpm-lock.yaml  ← kommenter ut hvis du bruker pnpm
+# yarn.lock       ← kommenter ut hvis du bruker yarn
